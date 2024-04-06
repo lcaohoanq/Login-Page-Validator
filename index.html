@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page With Simple Validator</title>
+    <title>Sign-up Page</title>
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,12 +22,13 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="sass/index.css" />
+    <link rel="stylesheet" href="./src/sass/index.css" />
+    <script src="dist/controller/login.controler.js" defer></script>
   </head>
   <body>
     <!-- code here -->
     <div class="container">
-      <h1 class="text-center">Login</h1>
+      <h1 class="text-center">Register</h1>
       <form novalidate>
         <!-- !username -->
         <div class="mb-3">
@@ -37,6 +38,7 @@
             placeholder="Username"
             id="username"
             class="form-control"
+            autofocus="true"
           />
         </div>
         <!-- !password -->
@@ -73,7 +75,5 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-
-    <script src="./control.js"></script>
   </body>
 </html>

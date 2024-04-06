@@ -12,6 +12,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  background-color: #121212;
 }
 
 .container {
@@ -23,10 +24,11 @@ body {
   width: 422px;
 }
 .container h1 {
-  font-size: 3em;
+  font-size: 5em;
   color: rgb(45, 204, 112);
 }
 .container input {
+  font-size: 1.5em;
   margin: 22px 0;
 }
 .container:hover {

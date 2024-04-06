@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "es6", "dom.iterable", "scripthost"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    /* Strict Type-Checking Options */
+    "strict": true
+    // "noUnusedLocals": true, /* Report errors on unused locals. */
+    // "noUnusedParameters": true,  /* Report errors on unused parameters. */
+    // "noImplicitReturns": true /* Report error when not all code paths in function return a value. */
+    // "paths": {
+    //   "~/*": ["src/*"] // Đường dẫn tương đối cho các import (alias)
+    // }
+  },
+  // "files": ["/src/type.d.ts"], // Các file dùng để defined global type cho dự án
+  "include": ["src/**/*"], // Đường dẫn include cho các file cần build
+  "exclude": [
+    "node_modules" // would be the default
+  ]
+}
