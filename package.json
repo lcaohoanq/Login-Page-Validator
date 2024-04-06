@@ -1,0 +1,29 @@
+{
+  "name": "Sign-upPage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lcaohoanq/LoginPageValidator.git",
+  "author": "lcaohoanq <hoangclw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn nodemon --development",
+    "build": "rimraf ./dist && tsc && tsc-alias",
+    "start": "node dist/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.5",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.4"
+  }
+}
